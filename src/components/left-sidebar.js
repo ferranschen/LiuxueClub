@@ -14,35 +14,35 @@ const navigation = [
       { name: '印地安那大学-伯明顿分校', href: '#' },
     ],
   },
-  {
-    name: '生活資訊',
-    current: false,
-    children: [
-      { name: '省钱快报', href: '#' },
-      { name: '旅游资讯', href: '#' },
-      { name: '美食资讯', href: '#' },
-      { name: '穿搭潮流', href: '#' },
-      { name: '租屋资讯', href: '#' },
-    ],
-  },
-  {
-    name: '感情生活',
-    current: false,
-    children: [
-      { name: '感情版', href: '#' },
-      { name: '男孩版', href: '#' },
-      { name: '女孩版', href: '#' },
-    ],
-  },
-  {
-    name: '留学申请',
-    current: false,
-    children: [
-      { name: 'PhD 申请', href: '#' },
-      { name: 'Master 申请', href: '#' },
-      { name: 'Undergraduate 申请', href: '#' },
-    ],
-  },
+//   {
+//     name: '生活資訊',
+//     current: false,
+//     children: [
+//       { name: '省钱快报', href: '#' },
+//       { name: '旅游资讯', href: '#' },
+//       { name: '美食资讯', href: '#' },
+//       { name: '穿搭潮流', href: '#' },
+//       { name: '租屋资讯', href: '#' },
+//     ],
+//   },
+//   {
+//     name: '感情生活',
+//     current: false,
+//     children: [
+//       { name: '感情版', href: '#' },
+//       { name: '男孩版', href: '#' },
+//       { name: '女孩版', href: '#' },
+//     ],
+//   },
+//   {
+//     name: '留学申请',
+//     current: false,
+//     children: [
+//       { name: 'PhD 申请', href: '#' },
+//       { name: 'Master 申请', href: '#' },
+//       { name: 'Undergraduate 申请', href: '#' },
+//     ],
+//   },
   {
     name: '找工实习',
     current: false,
@@ -60,7 +60,7 @@ function classNames(...classes) {
 
 export default function Sidebar() {
   return (
-    <div className="container mx-auto flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white pl-20 pt-5">
+    <div className="w-96 flex-col overflow-y-auto border-r border-gray-200 bg-white pl-20 pt-5">
 
       <nav className="flex flex-1 flex-col">
         <ul role="list" className="flex flex-1 flex-col gap-y-7">

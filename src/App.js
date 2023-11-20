@@ -1,13 +1,13 @@
 
 import './App.css';
 import Header from './components/header';
-import Sidebar from './components/left-sidebar';
+import MainBoard from './components/main';
 
 function App() {
   return (
     <>
     <Header />
-    <Sidebar />
+    <MainBoard />
     </>
     
   );

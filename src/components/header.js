@@ -11,8 +11,8 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <header className="bg-white sticky top-0">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 " aria-label="Global">
         <div className="flex items-center gap-x-10">
           <a href="#" className="text-xl -m-1.5 p-1.5 text-transparent bg-gradient-to-r from-cyan-500 to-blue-500  bg-clip-text transition duration-300 transform hover:scale-110">
             北美留学舍
