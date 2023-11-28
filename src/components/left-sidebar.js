@@ -3,15 +3,16 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid'
 
 const navigation = [
   {
-    name: '校園看板',
+    name: '校园看板',
     current: false,
     children: [
       { name: '普渡大学-西拉法叶分校', href: '#' },
       { name: '芝加哥大学', href: '#' },
-      { name: '伊利诺伊大学厄巴纳-香檳分校', href: '#' },
-      { name: '威斯康星麦迪逊大学-麥迪遜分校', href: '#' },
+      { name: '伊利诺伊大学厄巴纳-香槟分校', href: '#' },
+      { name: '威斯康星麦迪逊大学-麦迪逊分校', href: '#' },
       { name: '西北大学', href: '#' },
       { name: '印地安那大学-伯明顿分校', href: '#' },
+      { name: '密歇根大学-安娜堡', href: '#' }
     ],
   },
 //   {
@@ -47,9 +48,7 @@ const navigation = [
     name: '找工实习',
     current: false,
     children: [
-      { name: '面经', href: '#' },
-      { name: '职缺', href: '#' },
-      { name: '内推', href: '#' },
+      { name: '求职', href: '#' }
     ],
   }
 ]
