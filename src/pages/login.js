@@ -28,7 +28,7 @@ export default function Login() {
                     <div href="#" className="mt-10 text-center text-5xl text-transparent bg-gradient-to-r from-cyan-500 to-blue-500  bg-clip-text transition duration-300 transform hover:scale-110">
                         北美留学舍
                     </div>
-                    <h2 className="mt-10 text-center text-2xl   text-transparent bg-gradient-to-r from-cyan-500 to-blue-500  bg-clip-text transition duration-300 transform hover:scale-110">
+                    <h2 className="mt-10 text-center text-2xl   text-transparent bg-gradient-to-r from-cyan-500 to-blue-400  bg-clip-text transition duration-300 transform hover:scale-110">
                         登录
                     </h2>
                 </div>
@@ -57,7 +57,7 @@ export default function Login() {
                                     密码
                                 </label>
                                 <div className="text-sm">
-                                    <a href="#" className="font-semibold text-cyan-500 hover:text-cyan-400">
+                                    <a href="#" className="font-semibold text-sky-500 hover:text-sky-400">
                                         忘记密码?
                                     </a>
                                 </div>
@@ -77,7 +77,7 @@ export default function Login() {
                         <div>
                             <button
                                 type="submit"
-                                className="flex w-full justify-center rounded-md bg-cyan-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-cyan-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                className="flex w-full justify-center rounded-md bg-sky-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
                                 登录
                             </button>
@@ -86,7 +86,7 @@ export default function Login() {
 
                     <p className="mt-10 text-center text-sm text-gray-500">
                        還沒加入?{' '}
-                        <a href="#" className="font-semibold leading-6 text-cyan-500 hover:text-cyan-400">
+                        <a href="#" className="font-semibold leading-6 text-sky-500 hover:text-sky-400">
                             註冊
                         </a>
                     </p>
